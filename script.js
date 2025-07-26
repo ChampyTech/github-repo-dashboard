@@ -28,6 +28,16 @@ function generateLinks() {
         { label: 'Projects (closed)', url: `https://github.com/${username}/${repo}/projects?query=is%3Aclosed` },
         { label: 'Security', url: `https://github.com/${username}/${repo}/security` },
         { label: 'Insights', url: `https://github.com/${username}/${repo}/pulse` },
+        { label: 'README File', url: `https://github.com/${username}/${repo}#readme-ov-file` },
+        { label: 'Activity', url: `https://github.com/${username}/${repo}/activity` },
+        { label: 'Stars', url: `https://github.com/${username}/${repo}/stargazers` },
+        { label: 'Watchers', url: `https://github.com/${username}/${repo}/watchers` },
+        { label: 'Forks', url: `https://github.com/${username}/${repo}/forks` },
+        { label: 'Deployments', url: `https://github.com/${username}/${repo}/deployments` },
+        { label: 'Branches', url: `https://github.com/${username}/${repo}/branches` },
+        { label: 'Tags', url: `https://github.com/${username}/${repo}/tags` },
+        { label: 'Releases', url: `https://github.com/${username}/${repo}/releases` },
+        { label: 'Packages', url: `https://github.com/${username}?tab=packages&repo_name=${repo}` },
     ];
 
     document.getElementById('linksHeading').innerHTML = 'Links';
