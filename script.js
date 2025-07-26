@@ -16,6 +16,8 @@ function generateLinks() {
         { label: 'Issues (all)', url: `https://github.com/${username}/${repo}/issues` },
         { label: 'Issues (open)', url: `https://github.com/${username}/${repo}/issues?q=is%3Aissue%20state%3Aopen` },
         { label: 'Issues (closed)', url: `https://github.com/${username}/${repo}/issues?q=is%3Aissue%20state%3Aclosed` },
+        { label: 'Issue labels', url: `https://github.com/${username}/${repo}/labels` },
+        { label: 'Issue milestones', url: `https://github.com/${username}/${repo}/milestones` },
     ];
 
     document.getElementById('linksHeading').innerHTML = 'Links';
