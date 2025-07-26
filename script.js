@@ -16,8 +16,18 @@ function generateLinks() {
         { label: 'Issues (all)', url: `https://github.com/${username}/${repo}/issues` },
         { label: 'Issues (open)', url: `https://github.com/${username}/${repo}/issues?q=is%3Aissue%20state%3Aopen` },
         { label: 'Issues (closed)', url: `https://github.com/${username}/${repo}/issues?q=is%3Aissue%20state%3Aclosed` },
-        { label: 'Issue labels', url: `https://github.com/${username}/${repo}/labels` },
-        { label: 'Issue milestones', url: `https://github.com/${username}/${repo}/milestones` },
+        { label: 'Labels', url: `https://github.com/${username}/${repo}/labels` },
+        { label: 'Milestones', url: `https://github.com/${username}/${repo}/milestones` },
+        { label: 'Pull requests (all)', url: `https://github.com/${username}/${repo}/pulls` },
+        { label: 'Pull requests (open)', url: `https://github.com/${username}/${repo}/pulls?q=is%3Aopen+is%3Apr` },
+        { label: 'Pull requests (closed)', url: `https://github.com/${username}/${repo}/pulls?q=is%3Apr+is%3Aclosed` },
+        { label: 'Discussions', url: `https://github.com/${username}/${repo}/discussions` },
+        { label: 'Actions', url: `https://github.com/${username}/${repo}/actions` },
+        { label: 'Projects', url: `https://github.com/${username}/${repo}/projects` },
+        { label: 'Projects (open)', url: `https://github.com/${username}/${repo}/projects?query=is%3Aopen` },
+        { label: 'Projects (closed)', url: `https://github.com/${username}/${repo}/projects?query=is%3Aclosed` },
+        { label: 'Security', url: `https://github.com/${username}/${repo}/security` },
+        { label: 'Insights', url: `https://github.com/${username}/${repo}/pulse` },
     ];
 
     document.getElementById('linksHeading').innerHTML = 'Links';
