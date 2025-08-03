@@ -4,7 +4,7 @@
 
 A collection of useful links to help you view and manage your GitHub repositories more easily. All links are direct and point to specific sections of your GitHub repositories — just replace the username and the repository name with yours.
 
-## 📋 How to Use
+## 📋 How to use
 
 Just enter your username and your repository name and you will get all your GitHub repo links!
 
