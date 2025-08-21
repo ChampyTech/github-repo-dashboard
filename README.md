@@ -5,7 +5,7 @@
   <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-orange">
 </p>
 
-<a href="https://champytech.github.io/github-repo-management/">🔗 Visit website</a>
+[🔗 Visit website](https://champytech.github.io/github-repo-management/)
 
 A collection of useful links to help you view and manage your GitHub repositories more easily. All links are direct and point to specific sections of your GitHub repositories — just replace the username and the repository name with yours.
 
