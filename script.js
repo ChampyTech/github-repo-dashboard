@@ -18,15 +18,11 @@ async function generateLinks() {
         h2.textContent = category.title;
         list.appendChild(h2);
 
-        const ul = document.createElement('ul');
-
         category.links.forEach((link) => {
             const li = document.createElement('li');
             const url = link.url.replace('${username}', username).replace('${repo}', repo);
             li.innerHTML = `<a href="${url}" target="_blank">${link.label}</a>`;
-            ul.appendChild(li);
+            list.appendChild(li);
         });
-
-        list.appendChild(ul);
     });
 }
