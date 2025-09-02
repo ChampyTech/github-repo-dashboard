@@ -4,107 +4,107 @@
         "links": [
             {
                 "label": "Repository Link",
-                "url": "https: //github.com/${username}/${repo}"
+                "url": "https://github.com/${username}/${repo}"
             },
             {
                 "label": "Issues (all)",
-                "url": "https: //github.com/${username}/${repo}/issues"
+                "url": "https://github.com/${username}/${repo}/issues"
             },
             {
                 "label": "Issues (open)",
-                "url": "https: //github.com/${username}/${repo}/issues?q=is%3Aissue%20state%3Aopen"
+                "url": "https://github.com/${username}/${repo}/issues?q=is%3Aissue%20state%3Aopen"
             },
             {
                 "label": "Issues (closed)",
-                "url": "https: //github.com/${username}/${repo}/issues?q=is%3Aissue%20state%3Aclosed"
+                "url": "https://github.com/${username}/${repo}/issues?q=is%3Aissue%20state%3Aclosed"
             },
             {
                 "label": "Labels",
-                "url": "https: //github.com/${username}/${repo}/labels"
+                "url": "https://github.com/${username}/${repo}/labels"
             },
             {
                 "label": "Milestones",
-                "url": "https: //github.com/${username}/${repo}/milestones"
+                "url": "https://github.com/${username}/${repo}/milestones"
             },
             {
                 "label": "Pull requests (all)",
-                "url": "https: //github.com/${username}/${repo}/pulls"
+                "url": "https://github.com/${username}/${repo}/pulls"
             },
             {
                 "label": "Pull requests (open)",
-                "url": "https: //github.com/${username}/${repo}/pulls?q=is%3Aopen+is%3Apr"
+                "url": "https://github.com/${username}/${repo}/pulls?q=is%3Aopen+is%3Apr"
             },
             {
                 "label": "Pull requests (closed)",
-                "url": "https: //github.com/${username}/${repo}/pulls?q=is%3Apr+is%3Aclosed"
+                "url": "https://github.com/${username}/${repo}/pulls?q=is%3Apr+is%3Aclosed"
             },
             {
                 "label": "Discussions",
-                "url": "https: //github.com/${username}/${repo}/discussions"
+                "url": "https://github.com/${username}/${repo}/discussions"
             },
             {
                 "label": "Actions",
-                "url": "https: //github.com/${username}/${repo}/actions"
+                "url": "https://github.com/${username}/${repo}/actions"
             },
             {
                 "label": "Projects",
-                "url": "https: //github.com/${username}/${repo}/projects"
+                "url": "https://github.com/${username}/${repo}/projects"
             },
             {
                 "label": "Projects (open)",
-                "url": "https: //github.com/${username}/${repo}/projects?query=is%3Aopen"
+                "url": "https://github.com/${username}/${repo}/projects?query=is%3Aopen"
             },
             {
                 "label": "Projects (closed)",
-                "url": "https: //github.com/${username}/${repo}/projects?query=is%3Aclosed"
+                "url": "https://github.com/${username}/${repo}/projects?query=is%3Aclosed"
             },
             {
                 "label": "Security",
-                "url": "https: //github.com/${username}/${repo}/security"
+                "url": "https://github.com/${username}/${repo}/security"
             },
             {
                 "label": "Insights",
-                "url": "https: //github.com/${username}/${repo}/pulse"
+                "url": "https://github.com/${username}/${repo}/pulse"
             },
             {
                 "label": "README File",
-                "url": "https: //github.com/${username}/${repo}#readme-ov-file"
+                "url": "https://github.com/${username}/${repo}#readme-ov-file"
             },
             {
                 "label": "Activity",
-                "url": "https: //github.com/${username}/${repo}/activity"
+                "url": "https://github.com/${username}/${repo}/activity"
             },
             {
                 "label": "Stars",
-                "url": "https: //github.com/${username}/${repo}/stargazers"
+                "url": "https://github.com/${username}/${repo}/stargazers"
             },
             {
                 "label": "Watchers",
-                "url": "https: //github.com/${username}/${repo}/watchers"
+                "url": "https://github.com/${username}/${repo}/watchers"
             },
             {
                 "label": "Forks",
-                "url": "https: //github.com/${username}/${repo}/forks"
+                "url": "https://github.com/${username}/${repo}/forks"
             },
             {
                 "label": "Deployments",
-                "url": "https: //github.com/${username}/${repo}/deployments"
+                "url": "https://github.com/${username}/${repo}/deployments"
             },
             {
                 "label": "Branches",
-                "url": "https: //github.com/${username}/${repo}/branches"
+                "url": "https://github.com/${username}/${repo}/branches"
             },
             {
                 "label": "Tags",
-                "url": "https: //github.com/${username}/${repo}/tags"
+                "url": "https://github.com/${username}/${repo}/tags"
             },
             {
                 "label": "Releases",
-                "url": "https: //github.com/${username}/${repo}/releases"
+                "url": "https://github.com/${username}/${repo}/releases"
             },
             {
                 "label": "Packages",
-                "url": "https: //github.com/${username}?tab=packages&repo_name=${repo}"
+                "url": "https://github.com/${username}?tab=packages&repo_name=${repo}"
             }
         ]
     }
