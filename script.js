@@ -9,7 +9,7 @@ async function generateLinks() {
     const list = document.getElementById('links');
     list.innerHTML = '';
 
-    if (!username || !repo) return list.innerHTML = '<li style="color: red">Please enter a valid username or repository name.</li>';
+    if (!username || !repo) return list.innerHTML = '<p style="color: red">Please enter a valid username or repository name.</p>';
 
     const categories = await (await fetch('links.json')).json();
 
