@@ -11,11 +11,18 @@ async function generateLinks() {
 
     if (!username || !repo) return list.innerHTML = '<li style="color: red">Please enter a valid username or repository name.</li>';
 
-    document.getElementById('linksHeading').innerHTML = 'Links';
+    const categories = await (await fetch('links.json')).json();
 
-    links.forEach((link) => {
-        const li = document.createElement('li');
-        li.innerHTML = `<a href="${link.url}" target="_blank">${link.label}</a>`
-        list.appendChild(li);
+    categories.forEach((category) => {
+        const h2 = document.createElement('h2');
+        h2.textContent = category.title;
+        list.appendChild(h2);
+
+        category.links.forEach((link) => {
+            const li = document.createElement('li');
+            const url = link.url.replace('${username}', username).replace('${repo}', repo);
+            li.innerHTML = `<a href="${url}" target="_blank">${link.label}</a>`;
+            list.appendChild(li);
+        });
     });
 }
